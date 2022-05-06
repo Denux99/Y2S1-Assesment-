@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+table, th, td {
+    border: 2px solid rgb(24, 24, 24);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.quickLinksTable{
+    font-size: 16px;
+}
+
+h2{
+    text-align: center;
+}
+
+.manageStudentsTable{
+    font-size: 14px;
+}
+
+.parent{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+.containerQ{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerS{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data{
+    text-align: center;
+}
